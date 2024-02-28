@@ -49,7 +49,7 @@ export default function RecipeReviewCard() {
     { 
       title: "Cloud egg on toast", 
       des: "Le plat anglais idéal pour un brunch",
-      image: "/images/cloudegg.webp",
+      image: "./images/cloudegg.webp",
       content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 10 minutes<br/>Coût : pour toutes les bourses", 
       p1: "Ingrédients :<br/>- 2 œufs<br/>- Sel, poivre<br/>- 2 tranches de pain de campagne<br/>- Basilic (pour décorer)", 
       p2: "1. Séparer les blancs des jaunes. Monter les blancs en neige à l'aide d'un fouet électrique. Assaisonner.",
@@ -61,7 +61,7 @@ export default function RecipeReviewCard() {
 {
   title: "Omelette «fluffy» à la tomate",
   des: "MIAM!!!",
-  image: "/images/fluffy.webp",
+  image: "../images/fluffy.webp",
 
   content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 5 minutes<br/>Coût : pour toutes les bourses",
   p1: "Ingrédients :<br/>- 3 œufs<br/>- Sel, poivre<br/>- Un filet d'huile neutre<br/>- 2 C A S de sauce tomate<br/>- 1 C A S de parmesan<br/>- 1 C A S de fromage râpé<br/>- 1/2 C A C de ciboulette",
@@ -72,7 +72,7 @@ export default function RecipeReviewCard() {
 {
   title: "Chia pudding au granola",
   des: "Brunch gourmand sans prise de tête",
-  image: "/images/chia.webp",
+  image: ".../images/chia.webp",
 
   content: "Pour 2 personnes<br/>Temps de préparation : 10 minutes<br/>Temps de repos : 1 heure",
   p1: "Ingrédients :<br/>- 50 cl de lait végétal<br/>- 50 g de graines de chia<br/>- 1 C A C de vanille en poudre<br/>- 2 C A S de sirop d'agave<br/>- 150 g de granola<br/>- 250 g de fruits rouges",
@@ -83,7 +83,7 @@ export default function RecipeReviewCard() {
 {
   title: "Pancakes healthy",
   des: "Une délicieuse recette pour un petit-déjeuner sain",
-  image: "/images/sarasin.webp",
+  image: "sarasin.webp",
 
   content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 10 minutes",
   p1: "Ingrédients :<br/>- 120 g de farine de sarrasin<br/>- 100 g de compote de pommes sans sucre ajouté<br/>- 1 œuf<br/>- 20 cl de lait végétal<br/>- 1 C A C d'extrait de vanille<br/>- 1/2 C A C de levure chimique<br/>- Pour le toppings : fruits frais, fruits secs, confiture, sirop d'agave, beurre de cacahuètes…",
