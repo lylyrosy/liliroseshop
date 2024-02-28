@@ -15,7 +15,7 @@ import AppShortcutIcon from '@mui/icons-material/AppShortcut';
 const Home = () => {
 
 
-
+//mon code
 
     // const [total, settotal] = useState(0); le usestate fera une boucle indfinie il ne va pas lire la suite du code donc jutilise pas settotal mais un code js avec une variable let
 
