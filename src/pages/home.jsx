@@ -27,11 +27,11 @@ const [mydb, setmydb] = useState([]);
 
 useEffect(() => {
 
-    fetch("http://localhost:3100/mydb")
+    fetch('https://raw.githubusercontent.com/lylyrosy/liliroseshop/gh-pages/db.json')
     .then((response) => response.json())
     .then((data) =>  setmydb(data) )
 
-
+// "http://localhost:3100/mydb"
 }, [mydb]); 
 
 

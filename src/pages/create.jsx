@@ -97,7 +97,7 @@ onClick={ () =>
   {
   
 
-  fetch("http://localhost:3100/mydb",{method:'POST',     
+  fetch('https://raw.githubusercontent.com/lylyrosy/liliroseshop/gh-pages/db.json',{method:'POST',     
   headers: {
     "Content-Type": "application/json",
   },
