@@ -1,4 +1,4 @@
-
+//home 
 
 import React from 'react';
 import Typography from '@mui/material/Typography'
@@ -42,8 +42,8 @@ useEffect(() => {
 const handledelete = (item) => {
 
     fetch(
-        `http://localhost:3100/mydb/${item.id}`,{method:'DELETE'
-       
+        `https://raw.githubusercontent.com/lylyrosy/liliroseshop/gh-pages/db.json`,{method:'DELETE'
+        // http://localhost:3100/mydb/${item.id}
      })
     
     
