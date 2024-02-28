@@ -1,4 +1,5 @@
-
+//ce qui est en commentaire est un code ou jutilise un fichier .json , comme github ne deploie que des appli statiques je ne peux pas utiliser cette technique
+// d ou lutilisation de localstorage du navigateur afin de pouvoir deployer cette appli sur github
 
 import React from 'react';
 
@@ -41,6 +42,21 @@ const [achat, setachat] = useState("");
 const [prix, setprix] = useState(0);
 
 const navigo= useNavigate();
+
+
+//avec un localstorage
+
+const handleAdd= () => {
+  const newItem = { id: Date.now(), achat, prix };
+  const existingItems = JSON.parse(localStorage.getItem('mydb')) || [];
+  const updatedItems = [...existingItems, newItem];
+  localStorage.setItem('mydb', JSON.stringify(updatedItems));
+  navigo('/');
+};
+
+
+
+
   
     return (
 
@@ -97,19 +113,19 @@ onClick={ () =>
   {
   
 
-  fetch('https://raw.githubusercontent.com/lylyrosy/liliroseshop/gh-pages/db.json',{method:'POST',     
-  headers: {
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({achat, prix}),
+//   fetch('https://raw.githubusercontent.com/lylyrosy/liliroseshop/gh-pages/db.json',{method:'POST',     
+//   headers: {
+//     "Content-Type": "application/json",
+//   },
+//   body: JSON.stringify({achat, prix}),
 
 
-}).then((params) => {
-  navigo("/")
-})
+// }).then((params) => {
+//   navigo("/")
+// })
 
 
-
+handleAdd()
 
 }}
 

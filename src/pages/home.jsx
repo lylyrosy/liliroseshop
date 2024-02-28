@@ -1,4 +1,5 @@
-//home 
+//ce qui est en commentaire est un code ou jutilise un fichier .json , comme github ne deploie que des appli statiques je ne peux pas utiliser cette technique
+// d ou lutilisation de localstorage du navigateur afin de pouvoir deployer cette appli sur github
 
 import React from 'react';
 import Typography from '@mui/material/Typography'
@@ -25,26 +26,22 @@ const Home = () => {
 
 const [mydb, setmydb] = useState([]);
 
-useEffect(() => {
 
-    fetch('https://raw.githubusercontent.com/lylyrosy/liliroseshop/gh-pages/db.json')
-    .then((response) => response.json())
-    .then((data) =>  setmydb(data) )
+// useEffect(() => {
 
-// "http://localhost:3100/mydb"
-}, [mydb]); 
+//     fetch('https://raw.githubusercontent.com/lylyrosy/liliroseshop/gh-pages/db.json')
+//     .then((response) => response.json())
+//     .then((data) =>  setmydb(data) )
 
+// // "http://localhost:3100/mydb"
+// }, [mydb]); 
 
+// const handledelete = (item) => {
 
-
-
-
-const handledelete = (item) => {
-
-    fetch(
-        `https://raw.githubusercontent.com/lylyrosy/liliroseshop/gh-pages/db.json`,{method:'DELETE'
-        // http://localhost:3100/mydb/${item.id}
-     })
+//     // fetch(
+//     //     `https://raw.githubusercontent.com/lylyrosy/liliroseshop/gh-pages/db.json`,{method:'DELETE'
+//     //     // http://localhost:3100/mydb/${item.id}
+//     //  })
     
     
     
@@ -53,7 +50,30 @@ const handledelete = (item) => {
 
 
     
-}
+// }
+
+
+
+
+// localstorage
+
+useEffect(() => {
+    const data = JSON.parse(localStorage.getItem('mydb')) || [];
+    setmydb(data);
+  }, []);
+
+
+  const handleDelete = (item) => {
+    const updatedDb = mydb.filter((entry) => entry.id !== item.id);
+    localStorage.setItem('mydb', JSON.stringify(updatedDb));
+    setmydb(updatedDb);
+  };
+
+
+
+
+
+
 
 
 
@@ -111,7 +131,7 @@ variant="h6" > {item.prix} $</Typography>
 
 onClick={ () => {
   
-    handledelete(item)
+    handleDelete(item)
 
 
 
