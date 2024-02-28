@@ -50,7 +50,7 @@ export default function RecipeReviewCard() {
     { 
       title: "Cloud egg on toast", 
       des: "Le plat anglais idéal pour un brunch",
-      image: "/images/Cloudegg.webp",
+      image: "../images/Cloudegg.webp",
       content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 10 minutes<br/>Coût : pour toutes les bourses", 
       p1: "Ingrédients :<br/>- 2 œufs<br/>- Sel, poivre<br/>- 2 tranches de pain de campagne<br/>- Basilic (pour décorer)", 
       p2: "1. Séparer les blancs des jaunes. Monter les blancs en neige à l'aide d'un fouet électrique. Assaisonner.",
