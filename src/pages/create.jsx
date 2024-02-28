@@ -91,7 +91,10 @@ fullWidth={true}
 
 <ColorButton 
 
-onClick={ () => {
+onClick={ () => 
+  
+  
+  {
   
 
   fetch("http://localhost:3100/mydb",{method:'POST',     
@@ -104,6 +107,10 @@ onClick={ () => {
 }).then((params) => {
   navigo("/")
 })
+
+
+
+
 }}
 
 
