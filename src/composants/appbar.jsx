@@ -17,6 +17,9 @@ import SetMealIcon from '@mui/icons-material/SetMeal';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
+
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 const Appbar = ({drawerwidth, showdraw}) => {
 
     //la fct appbar et le tool appbar ne doivent pas avoir le meme nom ici les lettres majescules qui different reglent le probleme 
@@ -27,7 +30,8 @@ const Appbar = ({drawerwidth, showdraw}) => {
 
     const appBarHeight = theme.mixins.toolbar.minHeight;
 
-
+    const smUp = useMediaQuery(theme.breakpoints.up('sm'));
+    const mdUp = useMediaQuery(theme.breakpoints.up('md'));
 
     return (
         <div>
@@ -73,9 +77,9 @@ const Appbar = ({drawerwidth, showdraw}) => {
 
         sx={{display:{sm:'none'}}}>
 
-            <ShoppingCartIcon sx={{fontSize:'50px'}} />
+            <ShoppingCartIcon sx={{fontSize:'40px'}} />
 
-            <Typography >Clique-moi </Typography>
+            <Typography >Pousse-moi </Typography>
 
 
           
@@ -95,7 +99,7 @@ const Appbar = ({drawerwidth, showdraw}) => {
 
 
 
-<Typography variant="h4" color="initial" sx={{fontFamily:'Pacifico, cursive;', fontWeight:400, fontStyle:'normal '}}>Lili Rose SHOP &nbsp; </Typography>
+<Typography variant={ smUp ? 'h4' : mdUp ? 'h4' : 'h5'  }  color="initial" sx={{fontFamily:'Pacifico, cursive;', fontWeight:400, fontStyle:'normal '}}>Lili Rose SHOP &nbsp; </Typography>
 
           <Avatar variant="circular" src="/liliroseshop/images/vecto.png" />
         </Toolbar>
