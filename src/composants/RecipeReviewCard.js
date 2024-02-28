@@ -43,6 +43,8 @@ export default function RecipeReviewCard() {
   const [index, setIndex] = useState(0); // Index de l'élément actuel dans le tableau
 
 
+
+
   const [data, setData] = useState([
     { 
       title: "Cloud egg on toast", 
@@ -55,18 +57,6 @@ export default function RecipeReviewCard() {
       p4: "3. Sortir la plaque du four et déposer les jaunes dans les petites cavités. Poursuivre la cuisson 3 minutes.<br/>4. Placer les clouds eggs sur des tranches de pain grillées et décorer avec du basilic. Déguster sans attendre."
     }
 ,
-
-{
-  title: "Avocats au four avec œuf et dinde",
-  des: "Un délicieux plat pour le petit-déjeuner ou le brunch",
-  image: "/images/avocadoegg.jpg",
-  content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 20 minutes<br/>Coût : pour toutes les bourses",
-  p1: "Ingrédients :<br/>- 2 avocats BIO coupés en deux et dénoyautés<br/>- 2 escalopes de dinde coupées en petits dès<br/>- 4 jaunes d’œufs<br/>- 35 g de crème fraîche<br/>- Ciboulette ciselée<br/>- Sel, poivre",
-  p2: "Préparation :",
-  p3: "1. Disposer les avocats coupés et dénoyautés sur du papier sulfurisé. Ajoutez une noisette de crème fraîche au milieu de chaque moitié d'avocat, saler légèrement.<br/>2. Disposer les dès d'escalope de dinde sur chaque moitié d'avocat.",
-  p4: "3. Ajouter les blancs d’œuf, parsemer des dès d'escalope de dinde et saupoudrer de poivre.<br/>4. Cuire au four pendant 16 minutes à 180°. Sortir du four, ajouter les jaunes et cuire durant 2 minutes supplémentaires. Parsemer de ciboulette et servir."
-},
-
 
 {
   title: "Omelette «fluffy» à la tomate",
