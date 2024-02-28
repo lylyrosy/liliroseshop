@@ -73,7 +73,9 @@ const Appbar = ({drawerwidth, showdraw}) => {
 
         sx={{display:{sm:'none'}}}>
 
-            <ShoppingCartIcon sx={{fontSize:'50px'}} />SHOP
+            <ShoppingCartIcon sx={{fontSize:'50px'}} />
+
+            <Typography >Clique-moi </Typography>
 
 
           
@@ -93,9 +95,9 @@ const Appbar = ({drawerwidth, showdraw}) => {
 
 
 
-<Typography variant="h4" color="initial" sx={{fontFamily:'Pacifico, cursive;', fontWeight:400, fontStyle:'normal '}}>Lili Rose &nbsp; </Typography>
+<Typography variant="h4" color="initial" sx={{fontFamily:'Pacifico, cursive;', fontWeight:400, fontStyle:'normal '}}>Lili Rose SHOP &nbsp; </Typography>
 
-          <Avatar variant="circular" src="./images/vecto.png" />
+          <Avatar variant="circular" src="/liliroseshop/images/vecto.png" />
         </Toolbar>
       </AppBar>
 
