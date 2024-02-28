@@ -9,9 +9,6 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import IconButton from '@mui/material/IconButton'
 import { useState } from 'react';
 
-
-
-
 const Dej = () => {
 
 

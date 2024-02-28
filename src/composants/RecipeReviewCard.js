@@ -73,7 +73,7 @@ export default function RecipeReviewCard() {
 {
   title: "Chia pudding au granola",
   des: "Brunch gourmand sans prise de tête",
-  image: "/images/chia.webp",
+  image: "/liliroseshop/images/chia.webp",
 
   content: "Pour 2 personnes<br/>Temps de préparation : 10 minutes<br/>Temps de repos : 1 heure",
   p1: "Ingrédients :<br/>- 50 cl de lait végétal<br/>- 50 g de graines de chia<br/>- 1 C A C de vanille en poudre<br/>- 2 C A S de sirop d'agave<br/>- 150 g de granola<br/>- 250 g de fruits rouges",
@@ -84,7 +84,7 @@ export default function RecipeReviewCard() {
 {
   title: "Pancakes healthy",
   des: "Une délicieuse recette pour un petit-déjeuner sain",
-  image: "/images/sarasin.webp",
+  image: "./liliroseshop/images/sarasin.webp",
 
   content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 10 minutes",
   p1: "Ingrédients :<br/>- 120 g de farine de sarrasin<br/>- 100 g de compote de pommes sans sucre ajouté<br/>- 1 œuf<br/>- 20 cl de lait végétal<br/>- 1 C A C d'extrait de vanille<br/>- 1/2 C A C de levure chimique<br/>- Pour le toppings : fruits frais, fruits secs, confiture, sirop d'agave, beurre de cacahuètes…",
