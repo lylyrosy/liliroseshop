@@ -47,7 +47,7 @@ export default function RecipeReviewCard() {
     { 
       title: "Cloud egg on toast", 
       des: "Le plat anglais idéal pour un brunch",
-      image: "./images/cloudegg.webp",
+      image: "/images/cloudegg.webp",
       content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 10 minutes<br/>Coût : pour toutes les bourses", 
       p1: "Ingrédients :<br/>- 2 œufs<br/>- Sel, poivre<br/>- 2 tranches de pain de campagne<br/>- Basilic (pour décorer)", 
       p2: "1. Séparer les blancs des jaunes. Monter les blancs en neige à l'aide d'un fouet électrique. Assaisonner.",
@@ -59,7 +59,7 @@ export default function RecipeReviewCard() {
 {
   title: "Avocats au four avec œuf et dinde",
   des: "Un délicieux plat pour le petit-déjeuner ou le brunch",
-  image: "../images/avocadoegg.jpg",
+  image: "/images/avocadoegg.jpg",
   content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 20 minutes<br/>Coût : pour toutes les bourses",
   p1: "Ingrédients :<br/>- 2 avocats BIO coupés en deux et dénoyautés<br/>- 2 escalopes de dinde coupées en petits dès<br/>- 4 jaunes d’œufs<br/>- 35 g de crème fraîche<br/>- Ciboulette ciselée<br/>- Sel, poivre",
   p2: "Préparation :",
