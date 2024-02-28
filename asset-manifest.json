@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/liliroseshop/static/css/main.31d6cfe0.css",
-    "main.js": "/liliroseshop/static/js/main.39d24791.js",
+    "main.js": "/liliroseshop/static/js/main.786e3322.js",
     "static/js/453.7b017070.chunk.js": "/liliroseshop/static/js/453.7b017070.chunk.js",
     "service-worker.js": "/liliroseshop/service-worker.js",
     "static/media/logo.svg": "/liliroseshop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/liliroseshop/index.html",
-    "main.39d24791.js.map": "/liliroseshop/static/js/main.39d24791.js.map",
+    "main.786e3322.js.map": "/liliroseshop/static/js/main.786e3322.js.map",
     "453.7b017070.chunk.js.map": "/liliroseshop/static/js/453.7b017070.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.39d24791.js"
+    "static/js/main.786e3322.js"
   ]
 }
