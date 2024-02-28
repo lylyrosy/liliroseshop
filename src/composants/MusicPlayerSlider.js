@@ -38,7 +38,7 @@ const WallPaper = styled('div')({
 
   // top: ({ theme }) => theme.breakpoints.up('sm') ? '80px' : theme.breakpoints.up('md') ? '65px' : 0,
 
-  top:'73px',
+  top:'80px',
   left: 0,
   overflow: 'hidden',
 //   background: 'linear-gradient(rgb(255, 38, 142) 0%, rgb(255, 105, 79) 100%)',
@@ -53,7 +53,7 @@ background: ({ theme }) => theme.palette.mode === 'dark' ?
     width: '140%',
     height: '140%',
     position: 'absolute',
-    top: '-40%',
+    // top: '-40%',
     right: '-50%',
     // background:
     //   'radial-gradient(at center center, rgb(62, 79, 249) 0%, rgba(62, 79, 249, 0) 64%)',

@@ -86,7 +86,7 @@ const Appbar = ({drawerwidth, showdraw}) => {
           
         </IconButton>
 
-          <Link
+          {/* <Link
             href="/"
             underline="none"
             sx={{ flexGrow: 1, '&:hover': { fontSize: '30px' }, fontSize:'25px', fontFamily:'Indie Flower, cursive;', fontWeight:400, fontStyle:'normal '}}
@@ -95,11 +95,11 @@ const Appbar = ({drawerwidth, showdraw}) => {
             color={"inherit"}
           >
             
-          </Link>
+          </Link> */}
 
 
 
-<Typography variant={ smUp ? 'h4' : mdUp ? 'h4' : 'h4'  }  color="initial" sx={{fontFamily:'Pacifico, cursive;', fontWeight:400, fontStyle:'normal '}}>Lili Rose SHOP &nbsp; </Typography>
+<Typography variant={ smUp ? 'h4' : mdUp ? 'h4' : 'h4'  }  color="initial" sx={{flexGrow: 1, ml:'20px' ,fontFamily:'Pacifico, cursive;', fontWeight:400, fontStyle:'normal '}}>Lili Rose SHOP &nbsp; </Typography>
 
           <Avatar variant="circular" src="/liliroseshop/images/vecto.png" />
         </Toolbar>
