@@ -17,7 +17,7 @@ const Home = () => {
 
 
 
-    //const [total, settotal] = useState(0); le usestate fera une boucle indfinie il ne va pas lire la suite du code donc jutilise pas settotal mais un code js avec une variable let
+    // const [total, settotal] = useState(0); le usestate fera une boucle indfinie il ne va pas lire la suite du code donc jutilise pas settotal mais un code js avec une variable let
 
     let total=0;
 // si on laisse [mydb] dans useeffect vide ya que le first runder qui sera affiché il faudrait raffraichir la page dans le cas du delete sinon  use my effect ne fera pas la maj automatiquement 
