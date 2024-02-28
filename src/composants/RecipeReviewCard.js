@@ -62,7 +62,7 @@ export default function RecipeReviewCard() {
 {
   title: "Omelette «fluffy» à la tomate",
   des: "MIAM!!!",
-  image: "/images/fluffy.webp",
+  image: "./images/fluffy.webp",
 
   content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 5 minutes<br/>Coût : pour toutes les bourses",
   p1: "Ingrédients :<br/>- 3 œufs<br/>- Sel, poivre<br/>- Un filet d'huile neutre<br/>- 2 C A S de sauce tomate<br/>- 1 C A S de parmesan<br/>- 1 C A S de fromage râpé<br/>- 1/2 C A C de ciboulette",
