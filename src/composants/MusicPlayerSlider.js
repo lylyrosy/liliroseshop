@@ -17,15 +17,15 @@ import { useRef } from 'react';
 import { useState } from 'react';
 const songs = [
 
-    {img:'/images/olive.jpg', title: 'Le régime Méditéranéen , C\'est quoi?', artist: 'C\'est quoi?', album: 'C\'est quoi?', src: '/audios/r0.mp3' },
-    {img:'/images/tomate.jpg', title: 'Pr Gilbert Deray: Capital santé  ',  artist: 'Capital santé ', album: 'Capital santé ',  src: '/audios/r1.mp3' },
-    {img:'/images/orange.jpg', title: 'Dr Guillaume Fond : enquête santé',artist:' enquête santé', album: 'enquête santé',  src: '/audios/r2.mp3' },
+    {img:'/liliroseshop/images/olive.jpg', title: 'Le régime Méditéranéen , C\'est quoi?', artist: 'C\'est quoi?', album: 'C\'est quoi?', src: '/liliroseshop/audios/r0.mp3' },
+    {img:'/liliroseshop/images/tomate.jpg', title: 'Pr Gilbert Deray: Capital santé  ',  artist: 'Capital santé ', album: 'Capital santé ',  src: '/liliroseshop/audios/r1.mp3' },
+    {img:'/liliroseshop/images/orange.jpg', title: 'Dr Guillaume Fond : enquête santé',artist:' enquête santé', album: 'enquête santé',  src: '/liliroseshop/audios/r2.mp3' },
     { 
-        img:'/images/noix.jpg',
+        img:'/liliroseshop/images/noix.jpg',
         title: 'Le régime Méditéranéen, Menu et recettes',
         artist: 'Menu et recettes',
         album: 'Menu et recettes',
-        src: '/audios/r3.mp3' 
+        src: '/liliroseshop/audios/r3.mp3' 
       }
 
     // Add more songs as needed

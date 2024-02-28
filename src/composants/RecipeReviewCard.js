@@ -50,7 +50,7 @@ export default function RecipeReviewCard() {
     { 
       title: "Cloud egg on toast", 
       des: "Le plat anglais idéal pour un brunch",
-      image: "../images/Cloudegg.webp",
+      image: "/liliroseshop/images/Cloudegg.webp",
       content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 10 minutes<br/>Coût : pour toutes les bourses", 
       p1: "Ingrédients :<br/>- 2 œufs<br/>- Sel, poivre<br/>- 2 tranches de pain de campagne<br/>- Basilic (pour décorer)", 
       p2: "1. Séparer les blancs des jaunes. Monter les blancs en neige à l'aide d'un fouet électrique. Assaisonner.",
@@ -62,7 +62,7 @@ export default function RecipeReviewCard() {
 {
   title: "Omelette «fluffy» à la tomate",
   des: "MIAM!!!",
-  image: "./images/fluffy.webp",
+  image: "/liliroseshop/images/fluffy.webp",
 
   content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 5 minutes<br/>Coût : pour toutes les bourses",
   p1: "Ingrédients :<br/>- 3 œufs<br/>- Sel, poivre<br/>- Un filet d'huile neutre<br/>- 2 C A S de sauce tomate<br/>- 1 C A S de parmesan<br/>- 1 C A S de fromage râpé<br/>- 1/2 C A C de ciboulette",
@@ -84,7 +84,7 @@ export default function RecipeReviewCard() {
 {
   title: "Pancakes healthy",
   des: "Une délicieuse recette pour un petit-déjeuner sain",
-  image: "./liliroseshop/images/sarasin.webp",
+  image: "/liliroseshop/images/sarasin.webp",
 
   content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 10 minutes",
   p1: "Ingrédients :<br/>- 120 g de farine de sarrasin<br/>- 100 g de compote de pommes sans sucre ajouté<br/>- 1 œuf<br/>- 20 cl de lait végétal<br/>- 1 C A C d'extrait de vanille<br/>- 1/2 C A C de levure chimique<br/>- Pour le toppings : fruits frais, fruits secs, confiture, sirop d'agave, beurre de cacahuètes…",
@@ -95,7 +95,7 @@ export default function RecipeReviewCard() {
 {
   title: "Porridge aux bananes et au beurre de cacahuètes",
   des: "Un délicieux petit déjeuner pour bien commencer la journée",
-  image: "/images/banana.jpg",
+  image: "/liliroseshop/images/banana.jpg",
 
   content: "Pour 2 personnes<br/>Temps de préparation : 5 minutes<br/>Temps de cuisson : 10 minutes",
   p1: "Ingrédients :<br/>- 500 ml de lait<br/>- 6 C A S de flocons d'avoine<br/>- 2 bananes bien mûres + 1 pour la décoration<br/>- 2 C A S de sucre non raffiné<br/>- 2 C A S de beurre de cacahuètes",
@@ -152,7 +152,7 @@ retourcarte();
 <Card sx={{ maxWidth: 350 }}>
   <CardHeader
     avatar={
-      <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src="/images/brunch.jpg">
+      <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src="/liliroseshop/images/brunch.jpg">
         
       </Avatar>
     }
