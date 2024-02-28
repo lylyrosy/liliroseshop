@@ -99,7 +99,7 @@ const Appbar = ({drawerwidth, showdraw}) => {
 
 
 
-<Typography variant={ smUp ? 'h4' : mdUp ? 'h4' : 'h5'  }  color="initial" sx={{fontFamily:'Pacifico, cursive;', fontWeight:400, fontStyle:'normal '}}>Lili Rose SHOP &nbsp; </Typography>
+<Typography variant={ smUp ? 'h4' : mdUp ? 'h4' : 'h4'  }  color="initial" sx={{fontFamily:'Pacifico, cursive;', fontWeight:400, fontStyle:'normal '}}>Lili Rose SHOP &nbsp; </Typography>
 
           <Avatar variant="circular" src="/liliroseshop/images/vecto.png" />
         </Toolbar>
