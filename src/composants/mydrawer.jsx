@@ -169,7 +169,16 @@ return(
   
   
   disablePadding>
-      <ListItemButton onClick={() => { navig(item.path) }}>
+      <ListItemButton onClick={() => 
+        
+        
+        
+        { navig(item.path)
+        
+        
+          // hiddraw() au cas ou je veux fermer le drawer automatiquement une fois que je suis dans mon path
+        
+        }}>
         <ListItemIcon>
           {item.icon}
         </ListItemIcon>
