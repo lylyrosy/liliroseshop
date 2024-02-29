@@ -51,7 +51,7 @@ const handleAdd= () => {
   const existingItems = JSON.parse(localStorage.getItem('mydb')) || [];
   const updatedItems = [...existingItems, newItem];
   localStorage.setItem('mydb', JSON.stringify(updatedItems));
-  navigo('/');
+  navigo('/liliroseshop');
 };
 
 
