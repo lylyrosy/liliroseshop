@@ -21,13 +21,13 @@ import ExternalSite from './pages/ExternalSite';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Root />}>
+    <Route path="/liliroseshop" element={<Root />}>
       <Route index element={<Home />} />
-      <Route path="create" element={<Create />} />
-      <Route path="dej" element={<Dej />} />
-      <Route path="bois" element={<Bois/>} />
-      <Route path="medit" element={<Medit />} />
-      <Route path="external" element={<ExternalSite/>} />
+      <Route path="/liliroseshop/create" element={<Create />} />
+      <Route path="/liliroseshop/dej" element={<Dej />} />
+      <Route path="/liliroseshop/bois" element={<Bois/>} />
+      <Route path="/liliroseshop/medit" element={<Medit />} />
+      <Route path="/liliroseshop/external" element={<ExternalSite/>} />
 
       <Route path="*" element={<Create />} /> 
 

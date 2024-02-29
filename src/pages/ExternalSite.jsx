@@ -16,7 +16,7 @@ function ExternalSite() {
 
     useEffect(() => {
         // Redirige l'utilisateur vers '/create'
-        navigate('/create');
+        navigate('/liliroseshop/create');
     }, [navigate]);
 
     // Retourne null car ce composant ne rend pas de contenu supplémentaire

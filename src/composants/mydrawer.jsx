@@ -55,13 +55,13 @@ const locactu=useLocation();
 
 const mylist=[
 
-  {text:'Fais toi plaisir! ', icon:<FavoriteBorderIcon />, path:'/'},
+  {text:'Fais toi plaisir! ', icon:<FavoriteBorderIcon />, path:'/liliroseshop'},
   // {text:'IMC', icon:<MonitorWeightIcon />, path:'/create'},
-  { text:'Emplettes', icon:<AddShoppingCartIcon  />, path:'/create'},
-  {text:'Déjeuners&brunchs', icon:<LocalCafeIcon  />, path:'/dej'},
-  {text:'Régime meditéranéen', icon:< LocalPizzaIcon />, path:'/medit'},
-  {text:'Boissons saines', icon:< LocalDrinkIcon />, path:'/bois'},
-  {text:'LiliRose thérapie', icon:<LocalFloristIcon/>, path:'/external'},
+  { text:'Emplettes', icon:<AddShoppingCartIcon  />, path:'/liliroseshop/create'},
+  {text:'Déjeuners&brunchs', icon:<LocalCafeIcon  />, path:'/liliroseshop/dej'},
+  {text:'Régime meditéranéen', icon:< LocalPizzaIcon />, path:'/liliroseshop/medit'},
+  {text:'Boissons saines', icon:< LocalDrinkIcon />, path:'/liliroseshop/bois'},
+  {text:'LiliRose thérapie', icon:<LocalFloristIcon/>, path:'/liliroseshop/external'},
 
 
 ]
