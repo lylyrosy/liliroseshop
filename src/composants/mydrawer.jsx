@@ -30,6 +30,9 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import IconButton from '@mui/material/IconButton';
 
+
+
+import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 
@@ -58,6 +61,7 @@ const mylist=[
   {text:'Déjeuners&brunchs', icon:<LocalCafeIcon  />, path:'/dej'},
   {text:'Régime meditéranéen', icon:< LocalPizzaIcon />, path:'/medit'},
   {text:'Boissons saines', icon:< LocalDrinkIcon />, path:'/bois'},
+  {text:'LiliRose thérapie', icon:<LocalFloristIcon/>, path:'/external'},
 
 
 ]

@@ -17,6 +17,7 @@ import Dej from './pages/dej'
 import Bois from './pages/bois'
 import Medit from './pages/medit'
 
+import ExternalSite from './pages/ExternalSite';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +27,8 @@ const router = createBrowserRouter(
       <Route path="dej" element={<Dej />} />
       <Route path="bois" element={<Bois/>} />
       <Route path="medit" element={<Medit />} />
+      <Route path="external" element={<ExternalSite/>} />
+
       <Route path="*" element={<Create />} /> 
 
     </Route>
