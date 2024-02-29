@@ -89,7 +89,7 @@ const mylist=[
 
 
         sx={{
-          display:{xs:open, md:'block'},
+          display:{xs:open, sm: 'block' , md:'block'},
           
           width: `${drawerwidth}px` ,
           flexShrink: 0,
