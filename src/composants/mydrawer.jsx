@@ -6,6 +6,7 @@ import React from 'react';
 
 import { Drawer, Divider, Box} from "@mui/material";
 
+import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 
 
 
@@ -78,7 +79,13 @@ const mylist=[
 
 
 <Box component="nav" >
-  <Drawer
+
+
+
+
+
+
+  <SwipeableDrawer
 
 
         sx={{
@@ -207,7 +214,7 @@ return(
 
         </List>
   
-      </Drawer>
+      </SwipeableDrawer>
 
 </Box>
  
